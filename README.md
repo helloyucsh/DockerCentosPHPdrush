@@ -1,7 +1,7 @@
 dockerfiles-centos-httpd
 ========================
 
-CentOS  dockerfile for php
+CentOS  dockerfile for php and drush for install drupal 
 
 Get Docker version
 
