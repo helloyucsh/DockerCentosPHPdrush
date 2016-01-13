@@ -24,6 +24,7 @@ RUN curl -fSL "https://github.com/drush-ops/drush/releases/download/8.0.0-rc3/dr
 
 VOLUME /var/www/html
 COPY php.ini /etc/
+COPY httpd.conf /etc/httpd/conf/
 EXPOSE 80 443
 
 # Simple startup script to avoid some issues observed with container restart 
